@@ -1,0 +1,64 @@
+[
+  {
+    "insightType": "type1",
+    "references": [
+      "ref1",
+      "ref2"
+    ],
+    "values": {
+      "serviceName": "service1",
+      "sourceFiles": [
+        "source1",
+        "source2"
+      ],
+      "builtBinaries": [
+        "binary1",
+        "binary2"
+      ],
+      "installedPackages": {
+        "pkg1": "v1",
+        "pkg2": "v2"
+      },
+      "ports": [
+        [
+          "port1",
+          "port2"
+        ]
+      ],
+      "runCommands": "command1",
+      "resourceRequirements": "req1",
+      "description": "desc1"
+    }
+  },
+  {
+    "insightType": "type2",
+    "references": [
+      "ref3",
+      "ref4"
+    ],
+    "values": {
+      "serviceName": "service2",
+      "sourceFiles": [
+        "source3",
+        "source4"
+      ],
+      "builtBinaries": [
+        "binary3",
+        "binary4"
+      ],
+      "installedPackages": {
+        "pkg3": "v3",
+        "pkg4": "v4"
+      },
+      "ports": [
+        [
+          "port3",
+          "port4"
+        ]
+      ],
+      "runCommands": "command2",
+      "resourceRequirements": "req2",
+      "description": "desc2"
+    }
+  }
+]
